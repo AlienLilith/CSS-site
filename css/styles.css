@@ -1,0 +1,169 @@
+/*-----------------------------TAG SELECTORS-----------------------------*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  position: relative;
+  font-family: 'Rock Salt', cursive;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  color: #bbe1fa;
+}
+
+h2 {
+  font-family: 'Asap', sans-serif;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  color: #1b262c;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Asap', sans-serif;
+  color: #0f4c75;
+}
+
+div {
+  vertical-align: middle;
+}
+
+hr {
+  border-style: none;
+  border-top: 5px dotted #1b262c;
+  width: 20%;
+  margin: 100px auto;
+}
+
+p {
+  color: #3282b8;
+  line-height: 2;
+}
+
+a {
+  color: #3282b8;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  margin: 10px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+/*-----------------------------CLASS SELECTORS-----------------------------*/
+
+.top-container {
+  background-color: #0f4c75;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 80px;
+  right: 200px;
+}
+
+.meta {
+  text-decoration: underline;
+}
+
+.normal {
+  font-weight: lighter;
+  color: #bbe1fa;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+
+
+.middle-container {
+  background-color: #bbe1fa;
+  padding-top: 50px;
+}
+
+.profile {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.circle-pink {
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.circle-purple {
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+
+.bottom-container {
+  background-color: #1b262c;
+  padding: 50px 0 20px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.button {
+  background: #3282b8;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #EAF6F6;
+  font-family: 'Asap', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 8px 16px;
+  -webkit-box-shadow: 1px 1px 2px 0 #40514E;
+  -moz-box-shadow: 1px 1px 2px 0 #40514E;
+  box-shadow: 1px 1px 2px 0 #40514E;
+  text-shadow: 1px 1px 2px #40514E;
+  border: solid #0f4c75 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.button:hover {
+  border: solid #3282b8 1px;
+  background: #0f4c75;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
